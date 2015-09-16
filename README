@@ -1,0 +1,14 @@
+Add schedules from Arbiter scheduler (http://arbitersports.com) to Google
+Calendar.
+
+The script works for Soccer referees. The following are populated in the Google
+Calendar link:
+  * Title (Contains Game ID and League Name)
+  * Location (Address of the field)
+  * Date (Start Time and End Time - hard coded to 60 minutes + start time)
+  * Description. Contains the following:
+    * Site Name
+    * Other referees' name and phone numbers (if available)
+    * Name of the tournament
+    * Fee
+    * Teams playing
